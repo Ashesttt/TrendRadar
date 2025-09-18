@@ -1,0 +1,106 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-19 02:31:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">9</td>
+                <td class="percentage">3.53%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=macOS%2026%20Tahoe%E6%96%B0%E5%8A%9F%E8%83%BD%E6%B1%87%E6%80%BB" target="_blank" class="news-link">macOS 26 Tahoe新功能汇总</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2240788" target="_blank" class="news-link">晒晒我的新iPhone</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8EiPhone17" target="_blank" class="news-link">影视飓风iPhone17评测</a> [11] <font color='grey'>- 02时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2240354" target="_blank" class="news-link">iPhone 17系列全面评测</a> [15] <font color='grey'>- 02时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2241288" target="_blank" class="news-link">给你看看我的iOS26壁纸</a> [17] <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone17ProMax%E5%BD%B1%E5%83%8F%E8%AF%84%E6%B5%8B" target="_blank" class="news-link">iPhone17ProMax影像评测</a> [22] <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%2017%20Pro%E7%B3%BB%E5%88%97%E8%AF%84%E6%B5%8B" target="_blank" class="news-link">iPhone 17 Pro系列评测</a> [24] <font color='grey'>- 02时31分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7551202563895623689/" target="_blank" class="news-link">iPhone 17系列二级市场行情公布</a> [29] <font color='grey'>- 02时31分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E7%82%B9%E8%AF%84iPhone17" target="_blank" class="news-link">王自如点评iPhone17</a> [29] <font color='grey'>- 02时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技 宇宙</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7550559850334437419/" target="_blank" class="news-link">“十四五”时期科技创新发展成就</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755770" target="_blank" class="news-link">美联储鹰鸽参半，金融股领涨道指，科技股拖累纳指，中概强劲，黄金新高后转跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时31分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mkbhdCytPq" target="_blank" class="news-link">商务部谈中美Tiktok谈判：反对将科技和经贸问题政治化</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时31分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31627906" target="_blank" class="news-link">商务部谈中美Tiktok谈判：反对将科技和经贸问题政治化、工具化、武器化</a> [8] <font color='grey'>- 02时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755815" target="_blank" class="news-link">AH股午后大跳水，创业板一度跌3%，AI硬件股活跃，恒指跌1%，科网股普跌，国债、商品齐跌</a> [8] <font color='grey'>- 02时31分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31625622" target="_blank" class="news-link">广西书记佩戴的“广西生产”AI眼镜爆火，媒体介绍售价3999元</a> [12] <font color='grey'>- 02时31分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD-%E4%B8%9C%E7%9B%9F%E5%9B%BD%E5%AE%B6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%AD%E5%BF%83%E5%90%AF%E5%8A%A8%E5%BB%BA%E8%AE%BE" target="_blank" class="news-link">中国-东盟国家人工智能中心启动建设</a> [29] <font color='grey'>- 02时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2148828" target="_blank" class="news-link">DeepSeek严正声明：任何冒用公司名义开展“算力租赁”、“融资”等行为均属违法，将依法追究其法律责任</a> [12] <font color='grey'>- 02时31分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7551407404953374227/" target="_blank" class="news-link">华为和DeepSeek手拉手迈出一大步</a> [14] <font color='grey'>- 02时31分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD-%E4%B8%9C%E7%9B%9F%E5%9B%BD%E5%AE%B6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%AD%E5%BF%83%E5%90%AF%E5%8A%A8%E5%BB%BA%E8%AE%BE" target="_blank" class="news-link">中国-东盟国家人工智能中心启动建设</a> [29]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E7%82%B9%E8%AF%84iPhone17" target="_blank" class="news-link">王自如点评iPhone17</a> [29]</li></ul></div>
+    </body>
+    </html>
+    
